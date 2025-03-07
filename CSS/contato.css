@@ -27,6 +27,20 @@ main a{
     text-decoration: none;
 }
 
+main div#wpp{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div#instagram{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main p {
     color: #F2E8D5;
 }
