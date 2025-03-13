@@ -1,22 +1,27 @@
-*{
-    /* font-size: 22px; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
+body{
     background-image: linear-gradient(45deg, #1D2226, #5C6A73, #1D2226);
     background-attachment: fixed;
 }
 
-header nav {
+header{
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+
+}
+
+header nav{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-header nav img {
+header nav img{
     width: 50%;
 }
+
+/* Parte do Main ___________________________________________ */
+
 
 main{
     display: flex;
