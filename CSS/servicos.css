@@ -38,3 +38,16 @@ main a{
     align-content: center;
     justify-content: space-between;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer button{
+    border: none;
+    color: #F2E8D5;
+    background-color: #1D2226;
+    font-size: 20px;
+
+}
