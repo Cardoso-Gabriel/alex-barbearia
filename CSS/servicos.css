@@ -45,6 +45,10 @@ footer{
     justify-content: center;
 }
 
+footer a{
+    text-decoration: none;
+}
+
 footer button{
     border: 1px solid #F2E8D5;
     border-radius: 20px;
