@@ -1,0 +1,86 @@
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 450px;
+      margin: 20px auto;
+      text-align: center;
+    }
+    .calendar {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 5px;
+      margin-top: 10px;
+    }
+    .day-name {
+      font-weight: bold;
+      padding: 10px 0;
+      background-color: #f0f0f0;
+    }
+    .day {
+      padding: 10px 0;
+      border: 1px solid #ddd;
+      cursor: pointer;
+      user-select: none;
+    }
+    .day.selected {
+      background-color: #4caf50;
+      color: white;
+    }
+    .empty {
+      background-color: #fafafa;
+      cursor: default;
+      border: none;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    #timeSlots {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+    }
+    .time-slot {
+      padding: 8px 12px;
+      border: 1px solid #555;
+      border-radius: 5px;
+      cursor: pointer;
+      user-select: none;
+      min-width: 70px;
+      font-size: 14px;
+    }
+    .time-slot.selected {
+      background-color: #2196f3;
+      color: white;
+      border-color: #0b7dda;
+    }
+    #selectedInfo {
+      margin-top: 15px;
+      font-weight: bold;
+      min-height: 24px;
+    }
+    #reserveBtn {
+      margin-top: 15px;
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #summary {
+      margin-top: 20px;
+      padding: 15px;
+      border: 2px solid #4caf50;
+      border-radius: 8px;
+      background-color: #e8f5e9;
+      color: #2e7d32;
+      display: none;
+      text-align: left;
+      white-space: pre-line;
+      font-weight: bold;
+    }
