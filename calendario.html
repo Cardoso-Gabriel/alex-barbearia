@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calendário com Reservas</title>
+  <link rel="shortcut icon" href="Imagens/favicon_io/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="CSS/calendario.css">
+</head>
+<body>
+
+  <div class="header">
+    <button id="prevMonth">&lt;</button>
+    <h2 id="monthYear"></h2>
+    <button id="nextMonth">&gt;</button>
+  </div>
+
+  <div class="calendar" id="calendar">
+    <div class="day-name">Dom</div>
+    <div class="day-name">Seg</div>
+    <div class="day-name">Ter</div>
+    <div class="day-name">Qua</div>
+    <div class="day-name">Qui</div>
+    <div class="day-name">Sex</div>
+    <div class="day-name">Sáb</div>
+  </div>
+
+  <div id="timeSlots"></div>
+
+  <!-- ✅ Campo para o cliente digitar o nome -->
+  <input type="text" id="clientName" placeholder="Digite seu nome para reservar" style="margin-top:10px; padding:5px; width:80%;">
+
+  <button id="reserveBtn" disabled>Reservar Horário</button>
+
+  <div id="selectedInfo"></div>
+
+  <div id="summary"></div>
+
+  <script src="JS/calendario.js"></script>
+
+</body>
+</html>
