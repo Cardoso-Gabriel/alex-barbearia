@@ -1,43 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alex Barbearia</title>
-    <link rel="shortcut icon" href="Imagens/favicon_io/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/servicos.css">
-</head>
+    <link
+      rel="shortcut icon"
+      href="Imagens/favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="CSS/servicos.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <img src="Imagens/Logo creme sumindo.png" alt="">
-        </nav>
+      <nav>
+        <img src="Imagens/Logo creme sumindo.png" alt="" />
+      </nav>
     </header>
 
     <main>
-        <form>
-            <a href="#">HIDRATAÇÃO R$25,00<input type="checkbox"></a> 
-            <a href="#">ALINHAMENTO DE BARBA R$15,00<input type="checkbox"></a>
-            <a href="#">PEZINHO R$10,00<input type="checkbox"></a>
-            <a href="#">SOMBRACELHA NAVALHA R$10,00<input type="checkbox"></a>
-            <a href="#">SOMBRACELHA NA LINHA R$20,00<input type="checkbox"></a>
-            <a href="#">LIMPEZA NASAL R$15,00<input type="checkbox"></a>
-            <a href="#">SELAGEM R$70,00<input type="checkbox"></a>
-            <a href="#">ALISAMENTO AMERICANO R$40,00<input type="checkbox"></a>
-            <a href="#">LUZES R$80,00<input type="checkbox"></a>
-            <a href="#">PLATINADO R$140,00<input type="checkbox"></a>
-            <a href="#">BARBOTERAPIA R$25,00<input type="checkbox"></a>
-            <a href="#">CORTE R$30,00<input type="checkbox"></a>
-        </form>
+      <form>
+        <div>
+          <label for="hidratacao">HIDRATAÇÃO R$25,00</label>
+          <input type="checkbox" id="hidratacao" />
+        </div>
+        <div>
+          <label for="alinhamento">ALINHAMENTO DE BARBA R$15,00</label>
+          <input type="checkbox" id="alinhamento" />
+        </div>
+        <div>
+          <label for="pezinho">PEZINHO R$10,00</label>
+          <input type="checkbox" id="pezinho" />
+        </div>
+        <div>
+          <label for="sombracelha">SOMBRACELHA NAVALHA R$10,00</label>
+          <input type="checkbox" id="sombracelha" />
+        </div>
+        <div>
+          <label for="linha">SOMBRACELHA NA LINHA R$20,00</label>
+          <input type="checkbox" id="linha" />
+        </div>
+        <div>
+          <label for="nasal">LIMPEZA NASAL R$15,00</label>
+          <input type="checkbox" id="nasal" />
+        </div>
+        <div>
+          <label for="selagem">SELAGEM R$70,00</label>
+          <input type="checkbox" id="selagem" />
+        </div>
+        <div>
+          <label for="americano">ALISAMENTO AMERICANO R$40,00</label>
+          <input type="checkbox" id="americano" />
+        </div>
+        <div>
+          <label for="luzes">LUZES R$80,00</label>
+          <input type="checkbox" id="luzes" />
+        </div>
+        <div>
+          <label for="platinado">PLATINADO R$140,00</label>
+          <input type="checkbox" id="platinado" />
+        </div>
+        <div>
+          <label for="terapia">BARBOTERAPIA R$25,00</label>
+          <input type="checkbox" id="terapia" />
+        </div>
+        <div>
+          <label for="corte">CORTE R$30,00</label>
+          <input type="checkbox" id="corte" />
+      </form>
     </main>
 
     <footer>
-        <button onclick="salvarServicos()">Escolha seu barbeiro</button>
+      <button onclick="salvarServicos()">Escolha seu barbeiro</button>
     </footer>
 
     <script src="JS/servicos.js"></script>
-</body>
-
+  </body>
 </html>
